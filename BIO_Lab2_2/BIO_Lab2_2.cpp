@@ -1,4 +1,4 @@
-// BIO_Lab2_2.cpp: определяет точку входа для консольного приложения.
+п»ї// BIO_Lab2_2.cpp: РѕРїСЂРµРґРµР»СЏРµС‚ С‚РѕС‡РєСѓ РІС…РѕРґР° РґР»СЏ РєРѕРЅСЃРѕР»СЊРЅРѕРіРѕ РїСЂРёР»РѕР¶РµРЅРёСЏ.
 //
 
 #include "stdafx.h"
@@ -52,8 +52,8 @@ int main()
 	ifstream fin("input.txt");
 	ifstream fin2("input.txt");
 	ofstream fout("output.txt");
-	if (!fin.is_open()) // если файл не открыт
-		cout << "Файл не может быть открыт!\n"; // сообщить об этом
+	if (!fin.is_open()) // РµСЃР»Рё С„Р°Р№Р» РЅРµ РѕС‚РєСЂС‹С‚
+		cout << "Р¤Р°Р№Р» РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РѕС‚РєСЂС‹С‚!\n"; // СЃРѕРѕР±С‰РёС‚СЊ РѕР± СЌС‚РѕРј
 	else
 	{
 		int minRes = INT_MAX;
@@ -77,9 +77,9 @@ int main()
 		t = t - 2;
 		fin.close();
 		getline(fin2, lc, '\n');
-		int l = atoi(lc.c_str());	// размер шаблона
-		cout << "Размер шаблона = " << l << endl;
-		cout << "Число строк    = " << t << endl;
+		int l = atoi(lc.c_str());	// СЂР°Р·РјРµСЂ С€Р°Р±Р»РѕРЅР°
+		cout << "Р Р°Р·РјРµСЂ С€Р°Р±Р»РѕРЅР° = " << l << endl;
+		cout << "Р§РёСЃР»Рѕ СЃС‚СЂРѕРє    = " << t << endl;
 		string* DNA = new string[t];
 		for (int i = 0; i < t; i++)
 		{
@@ -95,7 +95,7 @@ int main()
 		bool Work = true;
 		while (Work)
 		{
-			Work = InitWorld(num, 4, l); //варианты мотива в числовой форме
+			Work = InitWorld(num, 4, l); //РІР°СЂРёР°РЅС‚С‹ РјРѕС‚РёРІР° РІ С‡РёСЃР»РѕРІРѕР№ С„РѕСЂРјРµ
 			
 			for (int k = 0;k < l;k++)
 			{
@@ -116,7 +116,7 @@ int main()
 			word.clear();
 		}
 		cout << minRes << endl;
-		cout << "Лучшее слово: " << bestWorld << endl;
+		cout << "Р›СѓС‡С€РµРµ СЃР»РѕРІРѕ: " << bestWorld << endl;
 		fout << bestWorld << endl;
 	}
 	fout.close();
