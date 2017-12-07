@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  BIO_Lab2_2.cpp
+BIO_Lab2_2.cpp(28): warning C4018: <: несоответствие типов со знаком и без знака
+BIO_Lab2_2.cpp(38): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода
+  All 220 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  BIO_Lab2_2.vcxproj -> C:\Users\demon\OneDrive\Документы\Visual Studio 2015\Projects\BIO_Lab2_2\Release\BIO_Lab2_2.exe
+  BIO_Lab2_2.vcxproj -> C:\Users\demon\OneDrive\Документы\Visual Studio 2015\Projects\BIO_Lab2_2\Release\BIO_Lab2_2.pdb (Full PDB)

@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  BIO_Lab2_2.cpp
+c:\users\demon\onedrive\документы\visual studio 2015\projects\bio_lab2_2\bio_lab2_2\bio_lab2_2.cpp(28): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\demon\onedrive\документы\visual studio 2015\projects\bio_lab2_2\bio_lab2_2\bio_lab2_2.cpp(38): warning C4018: <: несоответствие типов со знаком и без знака
+  BIO_Lab2_2.vcxproj -> C:\Users\demon\OneDrive\Документы\Visual Studio 2015\Projects\BIO_Lab2_2\Debug\BIO_Lab2_2.exe
+  BIO_Lab2_2.vcxproj -> C:\Users\demon\OneDrive\Документы\Visual Studio 2015\Projects\BIO_Lab2_2\Debug\BIO_Lab2_2.pdb (Full PDB)
